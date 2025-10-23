@@ -10,20 +10,25 @@
 <body>
 
     <div id="container" class="border-4 border-red-600 w-screen h-screen">
+
         <!-- HEADER -->
-        <div id="header">
-            <div id="chrono-task-title"></div>
-            <div id="anchor-container">
-                <a href="#" id="features"></a>
-                <a href="#" id="solutions"></a>
-                <a href="#" id="resources"></a>
-                <a href="#" id="pricing"></a>
+        <div id="header" class="absolute left-0 top-0 flex justify-between border-2 border-black w-full h-1/6">
+            <!-- S1 -->
+            <div id="chrono-task-title" class="border-2 border-red-600 h-full w-1/4"></div>
+            <!-- S2 -->
+            <div id="anchor-container" class="flex justify-around items-center font-mono border-2 border-red-600 h-full w-2/4">
+                <a href="#" id="features" class="text-center rounded-3xl border-2 border-blue-600 w-40 h-1/4">Features</a>
+                <a href="#" id="solutions" class="text-center rounded-3xl border-2 border-blue-600 w-40 h-1/4">Solutions</a>
+                <a href="#" id="resources" class="text-center rounded-3xl border-2 border-blue-600 w-40 h-1/4">Resources</a>
+                <a href="#" id="pricing" class="text-center rounded-3xl border-2 border-blue-600 w-40 h-1/4">Pricing</a>
             </div>
-            <div id="sign-up-container">
+            <!-- S3 -->
+            <div id="sign-up-container" class="border-2 border-red-600 h-full w-1/4">
                 <a href="" id="sign-in"></a>
                 <button id="get-demo"></button>
             </div>
         </div>
+        <!--  -->
         <!-- HOME PAGE BODY -->
         <div id="home-page">
             <div id="sticky-note"></div>
